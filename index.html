@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+
+<style>
+    .img-fluid {
+        width: 5rem;
+    }
+
+    .CompanyNameHeader{
+        color: grey;
+    }
+
+    .myHeader{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .nav-link{
+        border-width: 1px 0 0 0;
+        border-style: solid none none none;
+
+        margin-right: 1rem;
+        min-width: 12rem;
+        font-size: 1.1rem;
+        color: black;
+    }
+
+    .nav-link:hover{
+        color: #ffbe21;
+        border-width: 4px 0 0 0;
+        font-weight: bold;
+    }
+
+    .stepsExplanation {
+        text-align: center;
+        font: 1.1rem Nunito;
+    }
+
+    .processImage {
+        height: 7rem;
+        margin-bottom: 1rem;
+        {#filter: drop-shadow(8px 8px 10px gray);#}
+    }
+
+    .stepsExplanationHeder {
+        color: black;
+    }
+
+    .headerLeft {
+        text-align: left;
+    }
+
+    .headerRight {
+        text-align: right;
+    }
+
+    .sectionPadding{
+        padding-top: 5rem;
+        padding-bottom: 10rem;
+    }
+
+    .sectionExplainer{
+        padding-top: 0rem;
+        padding-bottom: 5rem;
+    }
+
+    .containerExplainer{
+        position: relative;
+        top: -2rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        background-color: #EEEEEE;
+    }
+
+    .landingBackground{
+        background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url({% static "img/home_header.jpg" %});
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .jumboText{
+            font-size: 2rem;
+            font-family: Oxygen;
+        }
+
+        .headerSubtext{
+            font-size: 1.3rem;
+        }
+
+        .landingBackground{
+        background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('https://cdn.pixabay.com/photo/2015/09/18/11/38/surface-945444_960_720.jpg');
+        background-repeat: no-repeat;
+        background-attachment: initial;
+        background-size: cover;
+        }
+
+        .headerLeft{
+            text-align: justify;
+        }
+
+        .headerRight{
+            text-align: justify;
+        }
+    }
+
+</style>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta property="og:title" content="Automate the marking of paper-based worksheets, same results only faster" />
+    <meta property="og:url" content="https://www.getmarked.ai/" />
+    <meta property="og:image" content="{% static 'public/pr/GETMARKED_logo_square.png' %}"/>
+    <meta property="og:description" content="Teachers in singapore spend one work day every week on marking alone. Let us automate it away, your time is precious!"/>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen:700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+
+
+    <title>GETMARKED | Automate the marking of paper-based worksheets, same results only faster</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row myHeader">
+            <a href="#"><figure><img class="img-fluid" src="img/logo_trim.png"></figure></a>
+            <div class="col-sm-8 my-auto">
+                <span class="CompanyNameHeader h2">GLO Technical Engineering PTE. LTD.</span>
+            </div>
+        </div>
+
+        <div class="row">
+            <nav class="nav">
+                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="#">Products & Services</a>
+                <a class="nav-link" href="#">Our Clients</a>
+            </nav>
+        </div>
+    </div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
